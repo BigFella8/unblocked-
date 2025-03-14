@@ -69,32 +69,43 @@
             font-size: 14px;
             color: #aaa;
         }
-        @keyframes neon {
-            0%, 100% { text-shadow: 0 0 10px #00ffcc; }
-            50% { text-shadow: 0 0 20px #00ffcc, 0 0 30px #00ffcc; }
-        }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="header">
-            <h1 style="animation: neon 2s infinite">Unblocked Games Hub</h1>
+            <h1>Unblocked Games Hub</h1>
         </div>
         <div class="game-grid">
             <!-- Game 1: 2048 -->
             <div class="game-card">
                 <div class="game-title">2048</div>
-                <iframe src="https://2048game.com/2048.html" scrolling="no"></iframe>
+                <iframe src="https://play2048.co/" scrolling="no"></iframe>
             </div>
             <!-- Game 2: Snake -->
             <div class="game-card">
                 <div class="game-title">Snake</div>
-                <iframe src="https://playsnake.org/snake.html" scrolling="no"></iframe>
+                <iframe src="https://patorjk.com/games/snake/" scrolling="no"></iframe>
             </div>
-            <!-- Game 3: Tetris -->
+            <!-- Game 3: Flappy Bird -->
             <div class="game-card">
-                <div class="game-title">Tetris</div>
-                <iframe src="https://tetris.com/play-tetris" scrolling="no"></iframe>
+                <div class="game-title">Flappy Bird</div>
+                <iframe src="https://flappybird.io/" scrolling="no"></iframe>
+            </div>
+            <!-- Game 4: Retro Goal (Similar to Retro Bowl) -->
+            <div class="game-card">
+                <div class="game-title">Retro Goal</div>
+                <iframe src="https://retrogoal.io/" scrolling="no"></iframe>
+            </div>
+            <!-- Game 5: Hoop Land (Similar to Basketball Stars) -->
+            <div class="game-card">
+                <div class="game-title">Hoop Land</div>
+                <iframe src="data:text/html,<h2 style='color:white;text-align:center;'>Play Hoop Land on your device (not embeddable)</h2><p style='color:white;text-align:center;'><a href='https://hoop.land/' target='_blank' style='color:#00ffcc;'>Click to Play</a></p>"></iframe>
+            </div>
+            <!-- Game 6: Ice League Hockey -->
+            <div class="game-card">
+                <div class="game-title">Ice League Hockey</div>
+                <iframe src="data:text/html,<h2 style='color:white;text-align:center;'>Play Ice League Hockey on your device (not embeddable)</h2><p style='color:white;text-align:center;'><a href='https://iceleaguehockey.com/' target='_blank' style='color:#00ffcc;'>Click to Play</a></p>"></iframe>
             </div>
             <!-- Placeholder for More Games -->
             <div class="game-card">
@@ -103,7 +114,7 @@
             </div>
         </div>
         <div class="footer">
-            Hosted for free on Netlify | Add more games by editing this HTML!
+            Hosted on Netlify | Add more games by editing this HTML!
         </div>
     </div>
 </body>
